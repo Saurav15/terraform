@@ -1,0 +1,12 @@
+.env
+
+# Ignore Terraform files
+.terraform/
+
+# Ignore local configuration files
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+next/
